@@ -46,9 +46,9 @@ To fetch initial data and save it to the database  run:
 ```bash
 symfony console fetch-fruits 
 ```
-Run this command the development server on port 8000.
+Run this command to start the development server on port 8000.
 ```bash
-symfony server:start -d to start
+symfony server:start -d
 ```
 
 ### Frontend
