@@ -44,7 +44,7 @@ symfony console doctrine:migrations:migrate
 ```
 To fetch initial data and save it to the database  run:
 ```bash
-Run symfony console fetch-fruits 
+symfony console fetch-fruits 
 ```
 Run this command the development server on port 8000.
 ```bash
