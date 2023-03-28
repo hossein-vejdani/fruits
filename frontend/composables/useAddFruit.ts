@@ -6,7 +6,7 @@ export async function useAddFruit(fruit: Omit<Fruit, 'id'>) {
     const { data, error } = await useFetch('/fruit', {
         method: 'POST',
         baseURL: BASE_URL,
-        body: fruit
+        body: { ...fruit }
     })
     if (error) {
         error.value?.data.errors.forEach((err: string) => {
