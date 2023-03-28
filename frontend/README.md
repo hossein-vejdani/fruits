@@ -1,7 +1,9 @@
 
 ## Setup
 
-Make sure to install the dependencies:
+Start backend server
+
+Then make sure to install the dependencies:
 
 ```bash
 # yarn
