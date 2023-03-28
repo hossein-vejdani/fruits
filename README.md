@@ -34,6 +34,10 @@ Run this commnad to start the PostgreSQL database and mail server.
 ```bash
 docker-compose up -d
 ```
+Run this command to create database.
+```bash
+symfony console doctrine:database:create
+```
 Run this command to migrate the database schema.
 ```bash
 symfony console doctrine:migrations:migrate
