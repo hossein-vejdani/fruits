@@ -53,7 +53,7 @@ symfony server:start -d to start
 
 ### Frontend
 
-Go to frontend directory and open termainl
+Go to frontend directory and open terminal
 
 Then make sure to install the dependencies:
 
