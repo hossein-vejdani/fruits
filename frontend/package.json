@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test:unit": "vitest run --coverage --config ./vitest.config.js --watch"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.3.2",
+    "@vitest/coverage-c8": "^0.29.7",
+    "jsdom": "^21.1.1",
+    "nuxt": "^3.3.2",
+    "sass": "^1.60.0",
+    "unplugin-auto-import": "^0.15.2",
+    "vitest": "^0.29.7"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.4",
+    "@vue/test-utils": "^2.3.2",
+    "daisyui": "^2.51.5"
+  }
+}
